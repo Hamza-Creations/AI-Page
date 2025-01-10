@@ -1,0 +1,457 @@
+body {
+margin: 0%;
+padding: 0%;
+}
+.navbar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 5rem;
+  z-index: 1000;
+  background-color: white;
+ border-bottom: 0.2rem solid whitesmoke;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin: 13px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 4rem;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  color: #232323;
+  width: 1255px;
+  height: 64.8px;
+}
+
+.box1 , img {
+  margin-right: 0.5rem;
+  height: 2.5rem;
+  width: 2rem;
+
+}
+
+.box2 {
+  height: 22.4px;
+  width: 245px;
+  font-size: 1.4rem;
+  font-family: 'Kantumruy Pro', Times, serif;
+  font-weight: 400;
+  color: #232323;
+  padding-left: 0rem;
+}
+
+.box3 {
+  width: 741px;
+  height: 38px;
+  margin: 3px;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 0;
+  font-weight: 400;
+  color: #232323;
+}
+
+.box4 {
+  width: 145px;
+  text-align: center;
+}
+
+.button1 {
+  background-color: #2b1c50;
+  color: white;
+  border-radius: 100px;
+  height: 22px;
+  width: 87.95px;
+  padding: 0.8rem 1.5rem;
+  border: none !important;
+  font-weight: 400;
+  box-shadow: none;
+  font-style: normal;
+  margin: 0.6rem 0.6rem;
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 1rem;
+}
+
+.navbarbutton {
+  margin: 3rem;
+  display: inline-flex;
+}
+
+#b1 {
+  display: inline-flex;
+  border-radius: 100px;
+  background-color: #005A99;
+  color: #ffffff;
+  font-size: 16px;
+  box-shadow: none;
+  border: none;
+  padding: 18px 7px;
+  height: 3.5rem;
+  width: 10rem;
+  text-align: center;
+  justify-content: center;
+}
+.sect {
+  position: relative;
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+  background-color: #eff0ff;
+  height: 24rem;
+  border-top: 0.5rem solid white;
+  margin-top: 4.5rem;
+}
+
+.content2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: relative;
+  align-items: center;
+}
+
+#b3 {
+  border-radius: 100px;
+  background-color: #427A95;
+  color: #ffffff;
+  font-size: 16px;
+  box-shadow: none;
+  border: none;
+  /* padding: 18px 7px; */
+  height: 4.5rem;
+  width: 12rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.content2 {
+  display: flex;
+  justify-content: space-between;
+}
+.img2 , .abc {
+  width:24rem ;
+height:17.5rem; 
+border-radius: 35px; 
+
+
+}
+.st{
+background-color:#427A95;
+  height: 21rem;
+  width: 27rem;
+  padding-right: 6px;
+  padding-top: 60px;
+  padding-left: 55px;
+  padding-bottom: 0px;
+  border-radius: 35px;
+  margin-right: 137px;
+}
+.tt{
+  height: 25rem;
+  width: 25rem;
+  font-size: 1.5rem;
+  padding-left: 9rem;
+  font-family: 'Kantumruy Pro', sans-serif;
+  line-height: 1.5;
+
+}
+.feature{
+  margin-top: 4rem;
+  border: 0.3rem solid white;
+  height: 88rem;
+}
+.feature2{
+  text-align: center;
+  font-size: 3rem;
+  font-family:'Kantumruy Pro', sans-serif ;
+  font-weight: 600;
+}
+.feature4{
+  width: 80rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 20rem;
+}
+.content4{
+  padding-left: 1rem;
+  padding-right:1rem;  
+}
+.hic{
+  font-size: 0.9rem;
+}
+.ppp{
+  font-family: 'Kantumruy Pro', sans-serif;
+  color: #70706E;
+  line-height: 1.4;
+}
+.productivity{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  height: 30rem;
+}
+.vivo1{
+  height: 23rem;
+  width: 34rem;
+  border-radius: 2.5rem;  
+}
+.inc2{
+  width: 26rem;
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+.ptv{
+  color:#70706E;
+  line-height: 1.4;
+  font-size: 1.4rem;
+}
+.optimize{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.work1{
+  width: 24rem;
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+}
+.lptv{
+  color: #70706E;
+  line-height: 1.4;
+  font-size: 1.4rem;
+}
+.vivo2{height: 23rem;
+  width: 34rem;
+  border-radius: 2.5rem;
+}
+.optagain{
+  display: flex;
+  justify-content: space-between;
+  height: 34rem;
+  background-color: #02253D;
+}
+.optworkflow{
+  color: white;
+  width: 32rem;
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 2rem;
+  padding-top: 5rem;
+  padding-left: 7rem;
+}
+.h123{
+  margin-bottom: -1rem;
+}
+.lptvv{
+  color: white;
+  line-height: 1.4;
+  font-size: 1.5rem;
+}
+.vivo3{height: 23rem;
+  width: 34rem;
+  border-radius: 2.5rem;
+  margin-top: 8rem;
+  margin-right: 3rem;
+}
+.components{
+  line-height: 1.5;
+  color: white;
+  width: 25rem;
+  font-size: 1.5rem;
+}
+.companies{height: 25rem;
+  background-color: white;
+}
+.world1{font-size: 2.5rem; 
+  font-family:'Kantumruy Pro', sans-serif;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  word-spacing: 0.5rem;
+  }
+  .logo{
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 10rem;
+  padding-right: 10rem
+  }
+  .vivo4{width: 10rem;
+  height: fit-content;
+  padding: 0.5rem 0;
+  margin-bottom: 0rem;
+  background-color: transparent;
+  opacity: o.7;
+  }
+  .vivo5{
+    height: 6rem;
+    width: 8rem;
+    margin-left: 1rem;
+  } 
+  .testimonials{
+    margin-top: 5rem;
+    height: 53rem;
+    background-color: #073C3E;
+ }
+ .testi1{
+  color: white;
+  font-size: 2.5rem;
+  font-family:'Kantumruy Pro', sans-serif;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.testi2{
+  width: 36rem;
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding-left: 24rem;
+  text-align: center;
+  color: white;
+}
+#dislist{
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 18px;
+  margin-left: 3rem;
+  color: white;
+}
+.visit{
+  height: 55rem;
+  background-color: white;
+}
+.visit1{font-size: 3rem;
+  font-family:'Kantumruy Pro', sans-serif;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+.visit2{
+  width: 67.5rem;
+  height: 36rem;
+  background-color: #6E5F69;
+  box-shadow: 0 0 40px 0 #6E5F69;
+  border-radius: 3rem;
+}
+.visit22{
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.kitchen{
+  width: 50rem;
+    margin-top: 4rem;
+    margin-left: 9rem;
+    border-radius: 3rem;
+}
+.dispic{
+  margin-left: 13rem;
+  width: 55rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.dispic1{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1.5rem;
+}
+.last{height: 30rem;
+  background-color:  #eff0ff;
+}
+.last1{display: flex;
+  padding-left: 2rem;
+  padding-right: 15rem;
+  padding-top: 5rem;
+}
+.last2{width: 12rem;
+  padding-left: 2rem;
+}
+.last3{padding-left: 3.3rem;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: #3d2e7c;
+  margin-top: 2rem;
+}
+.last4{color: #3d2e7c;
+line-height: 2;
+font-size: 1.1rem;
+}
+.footer{
+  height: 4rem;
+  background-color:#CECFCA;
+}
+.footer1{
+  display: flex;
+}
+.footer2{
+  display: flex;
+  padding-left: 10rem;
+  padding-top: 1rem;
+}
+.footer3{
+  width: 20rem;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.footer4{
+  width: 25rem;
+  text-align: left;
+  padding-left: 8rem;
+  font-size: 1.2rem;
+}
+.example{
+background-image: url(background.png);
+background-repeat: no-repeat;
+background-size: cover;
+    margin-top: 4rem;
+    height: 22.4rem;
+    padding-top: 8rem;
+}
+.query{
+  padding-top: 3rem;
+    text-align: center;
+}
+#searchbar{
+  border: 1px solid pink;
+  display: inline;
+  margin-left: 25rem;
+  height: 3rem;
+  width: 30rem;
+  border-radius: 0.5rem; 
+}
+#searchbutton{
+  border: 1px solid #F5297A;
+  width: 6rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    background-color: #F5297A;
+    color: white;
+}
+.anchortag{
+  text-decoration: none;
+  color: black;
+}
+.anchortag:hover{
+  color: blue;
+}
+#b1:hover{
+  background-color: rgb(250, 74, 74);
+}
+#b3:hover{
+  background-color: #013f5e;
+}
